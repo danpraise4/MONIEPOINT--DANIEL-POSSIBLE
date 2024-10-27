@@ -1,0 +1,80 @@
+name: possible
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.9.0
+
+  # svg
+  flutter_svg: ^2.0.10+1
+
+  # screen util
+  flutter_screenutil: ^5.9.3
+
+
+  # glassmorphism
+  glassmorphism_widgets: ^0.2.2
+
+  # animate
+  flutter_animate: ^4.5.0
+
+  flutter_popup: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/fonts/
+    - assets/maps/
+
+  fonts:
+    - family: Montserrate
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+          weight: 200
